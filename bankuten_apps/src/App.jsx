@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar, About, } from './components'
+import styles from './style.js'
 
 const App = () => {
   return (

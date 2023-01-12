@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, About, } from './components'
+import { Navbar, About, Partners, } from './components'
 import styles from './style.js'
 
 const App = () => {
@@ -14,6 +14,7 @@ const App = () => {
       <section className={`bg-dimWhite ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <About />
+          <Partners />
         </div>
       </section>
     </div>

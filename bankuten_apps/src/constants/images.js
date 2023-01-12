@@ -26,7 +26,7 @@ import Icon5 from '../assets/icon2-1.png'
 import Icon6 from '../assets/icon2-2.png'
 import Icon7 from '../assets/icon2-3.png'
 import Icon8 from '../assets/icon2-4.png'
-
+import Logo from '../assets/logo.png'
 export default{
     Heart,
     Plane,
@@ -56,5 +56,6 @@ export default{
     Icon6,
     Icon7,
     Icon8,
+    Logo
 
 }

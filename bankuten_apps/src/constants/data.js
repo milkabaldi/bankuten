@@ -24,6 +24,67 @@ const reviews = [
   },
 ]
 
+
+
+const propose = [
+  {
+    ima: images.Heart,
+    description: 'Cestovní pojištění',
+  },
+  {
+    ima: images.Plane,
+     description: 'Životní pojištění',
+  },
+  {
+    ima: images.Hospital,
+     description: 'Pojištění nemovitosti',
+  },
+  {
+    ima: images.House,
+     description: 'Úrazové pojištěníс',
+  },
+]
+
+const partners = [
+{
+  logo: images.Company1,
+},
+{
+  logo: images.Company2,
+},
+{
+  logo: images.Company3,
+},
+{
+  logo: images.Company4,
+},
+{
+  logo: images.Company5,
+},
+{
+  logo: images.Company6,
+},
+{
+  logo: images.Company7,
+},
+{
+  logo: images.Company8,
+},
+{
+  logo: images.Company9,
+},
+{
+  logo: images.Company10,
+},
+{
+  logo: images.Company11,
+},
+
+
+]
+
 export default {
   reviews,
+  partners,
+  propose,
 }

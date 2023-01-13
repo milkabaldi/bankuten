@@ -83,8 +83,57 @@ const partners = [
 
 ]
 
+
+const mission = [
+  {
+    img: images.Icon2,
+    title: 'Největší srovnávač',
+    text: 'Srovnejte více než 2 tisíce nabídek',
+  },
+  {
+    img: images.Icon1,
+    title: 'Speciálně pro vás',
+    text: 'Individuálně vyhodnotíme a najdeme nejlepší řešení',
+  },
+  {
+    img: images.Icon3,
+    title: 'Důvěřují nám',
+    text: 'Tisíce zákazníků a desítky partnerů',
+  },
+  {
+    img: images.Icon4,
+    title: 'Registrace České národní banky',
+    text: 'Všechny vaše údaje jsou v bezpečí',
+  },
+]
+
+const numbers = [
+  {
+    img: images.Icon5,
+    title: '50 000 000',
+    text: 'korun ušetřených loni',
+  },
+  {
+    img: images.Icon6,
+    title: '10 let',
+    text: 'na českém trhu',
+  },
+  {
+    img: images.Icon7,
+    title: '9 z 10',
+    text: 'spokojených zákazníků',
+  },
+  {
+    img: images.Icon8,
+    title: '40+',
+    text: 'spolupracuje s námi více než 40 poskytovatelů',
+  },
+]
+
 export default {
   reviews,
   partners,
   propose,
+  mission,
+  numbers,
 }

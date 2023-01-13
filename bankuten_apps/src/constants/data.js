@@ -130,10 +130,45 @@ const numbers = [
   },
 ]
 
+
+
+const insurance = [
+  {
+    number: '1',
+    title: 'Ušetříte peníze i čas',
+    des1: '90 % lidí si vybere nejlepší nabídku',
+    des2: 'Významné úspory až 70 %',
+    des3: 'Je to velice rychlé a bez závazků (2 min)',
+  },
+  {
+    number: '2',
+    title: 'Máte vše pod kontrolou',
+    des1: 'Žádná volání s irelevantními nabídkami. Nikdo vás neobtěžuje',
+    des2: 'Aše žádost bude individuálně posouzena podle vašich parametrů.Od pojišťovny obdržíte jen nejlepší nabídky',
+    des3: 'Nepožadujeme žádné údaje navíc, pouze ty, které jsou potřebné k vyhledání pojištění. Všechny údaje jsou v bezpečí',
+  },
+  {
+    number: '3',
+    title: 'Obdržíte jen nejlepší nabídky',
+    des1: 'Každý může  ušetřit tisíce korun',
+    des2: 'Pouze aktuální nabídky. A dokonce i skryté nabídky pojišťoven',
+    des3: 'Pokud poskytovatel nabízí akce nebo slevy, nabídneme je i vám',
+  },
+]
+
+
+
+
+
+
+
+
+
 export default {
   reviews,
   partners,
   propose,
   mission,
   numbers,
+  insurance,
 }

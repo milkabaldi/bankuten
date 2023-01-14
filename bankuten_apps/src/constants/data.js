@@ -160,7 +160,18 @@ const insurance = [
 
 
 
-
+const insuranceText = [
+  {
+    title: 'Proč potřebujete pojištění?',
+    text1: 'Poptávka po online pojištění v České republice rok od roku roste. Není to žádným překvapením, protože stále více lidí začíná chápat, že spoléhání na náhodu ne vždy pomůže a vytváření finanční ochrany pro budoucnost je rozumné rozhodnutí. Některé situace není možné předvídat, ale můžete se chránit před zbytečnými finančními výdaji a pojištění vám s tím pomůže.',
+    text2: 'Po uzavření smlouvy s pojišťovnou je v případě vyšší moci pojistitel povinen zaplatit náhradu a hlavním rozdílem je, že náklady na pojištění jsou vždy nižší než výše plateb. Koupě pojištění vám proto nejen ušetří peníze, ale také pomůže získat klid.',
+  },
+  {
+    title: 'Jaký je princip pojištění?',
+    text1: 'Každý měsíc odchází klientova platba do pojistného fondu každé pojistné kampaně. Pokud u klienta dojde k pojistné události, pojišťovna mu poskytne náhradu škody. Platby zákazníkům jsou méně časté než doplňování pojistného fondu. Proto si všichni investoři mohou být jisti, že kapitál fondu bude stačit k pokrytí ztrát. Na trhu existuje mnoho pojišťoven s různými podmínkami a cenami pojišťovacích služeb. Rozmanitost v oblasti pojišťovacích služeb a cen ztěžuje lidem výběr. Většina lidí proto používá srovnávač, jako je Bankuten, aby jim tento úkol usnadnil.',
+    text2: 'Lidé jsou ochotni si pojištění koupit i přesto, že většina pojištění je nepovinných, protože chápou, že je levnější platit pojištění, než pak sami platit nepředvídané škody. Škody mohou být různé povahy a s odlišnými finančními náklady. Je proto nutné mít pojištění pro různé příležitosti. Pojem škody znamená nejen škodu sobě samému, ale i jiným osobám. Můžete například poškodit velmi drahé auto nebo se zranit, což ovlivní vaši schopnost pracovat. V případě takových situací budete muset tyto problémy vyřešit sami, nebo to pojištění může udělat za vás.',
+  },
+]
 
 
 

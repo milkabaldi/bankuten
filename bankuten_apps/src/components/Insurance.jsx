@@ -23,6 +23,17 @@ function Insurance() {
             ))}
           </div>
         </div>
+        <div>
+        {data.insuranceText.map((item) => (
+              <div >
+                <span key={item.title}>{item.title}</span>
+                <div>
+                  <p key={item.text1}>{item.text1}</p>
+                  <p key={item.text2}>{item.text2}</p>
+                </div>
+              </div>
+            ))}
+        </div>
       </Fragment>
     )
   }

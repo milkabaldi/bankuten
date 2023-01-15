@@ -178,58 +178,95 @@ const insuranceText = [
 
 const modal = [
   {
-    title: 'Take away Option',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Jste pojišťovna?',
+    text: 'Ne. Jsme srovnávač a spolupracujeme s řadou pojišťoven. Známe a analyzujeme obrovské množství pojišťovacích služeb a porovnáváme všechny cenové nabídky. Proto jsme schopni vybrat podle vašich parametrů vyhledávání tu nejlepší nabídku pro vás. Zjednodušíme složitost výběru. Jedna pojišťovna se totiž může zaměřovat na mladší řidiče, zatímco jiná se zaměřuje na zkušenější řidiče. Totéž platí u ostatních druhů pojištění',
   },
   {
-    title: 'Take away Option',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Máte pro pojišťovny zvýhodněné podmínky?',
+    text: 'Bez zvláštních výhod. To je naše hlavní pravidlo! Spolupracujeme se všemi pojišťovnami za stejných podmínek. Proto si zákazníci mohou být jisti poctivostí cenových nabídek.',
   },
   {
-    title: 'Take away Option',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Proč musím uvést své kontaktní údaje a další osobní údaje?',
+    text: 'ento princip funguje ve všech srovnávačích. Je to stejné, jako když kontaktujete pojišťovnu přímo. Pokud se obrátíte přímo na svou pojišťovnu, budou požadovat stejné informace. Všechny osobní údaje jsou chráněny a garantujeme jejich naprostou bezpečnost. Je to pro nás velmi důležité a ceníme si naší pověsti.',
   },
   {
-    title: 'Take away Option',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Proč máte tak příznivé ceny?',
+    text: 'Uzavíráme stovky smluv týdně. Pomáháme vám i poskytovatelům pojištění a obě strany šetří svůj čas. Poskytovatelé obrovskou měrou ušetří na administrativních nákladech, a proto poskytují přístup k lepším nabídkám. Proto u nás najdete neveřejné nabídky se speciálními slevami. Je to opět výhodné pro obě strany. Vše je jednoduché a přehledné: U nás najdete nejlepší nabídku, poskytovatel uzavře naším prostřednictvím novou smlouvu a my obdržíme provizi.',
   },
   {
-    title: 'Take away Option',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Jaký druh pojištění potřebuji?',
+    text: 'Vše závisí na vašich potřebách a životní situaci. Pokud například někam jedete, budete potřebovat cestovní pojištění. Pokud vlastníte auto, budete potřebovat povinné pojištění vozidla.',
   },
   {
-    title: 'Take away Option',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Jsou všechna pojištění k dispozici online?',
+    text: 'Téměř všechna pojištění jsou k dispozici online. Mezi výjimky patří některé typy životního a úrazového pojištění. K jejich sjednání se musíte obrátit přímo na zástupce pojišťovny, na kterého vás odkážeme prostřednictvím našeho srovnávače.',
   },
   {
-    title: 'Take away Option',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Jak si vybrat nejlepší pojištění?',
+    text: 'Doporučujeme vám věnovat pozornost stanoveným limitům jednotlivých typů pojištění. Pojištění kryje veškeré škody, ale pouze v rámci stanovených limitů. Čtěte pozorně, i spodní limit se vám zdát vysoký, a nenechte se zmást vysokými čísly. Různé životní situace, jako jsou nehody, mohou bohužel vést k obrovským škodám, které nejsou kryty běžným pojištěním s nízkými limity. V tomto případě byste museli platit horentní sumy z vlastní kapsy.',
   },
   {
-    title: 'Take away Option',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Co je spoluúčast?',
+    text: 'Jedná se o určitý druh ochrany pojišťoven před různými podvody. Spoluúčast znamená část škody, kterou pojištěný musí nahradit v případě pojistné události. Obvykle se uvádí jako procento nebo pevně stanovená částka. Tento faktor také ovlivňuje náklady na pojištění: Čím vyšší je procento příplatku, tím levnější pojištění.',
   },
   {
-    title: 'Take away Option',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Jak může pojištěný prokázat škodu?',
+    text: 'K tomuto účelu existuje seznam požadovaných dokumentů (účtenky, fotografie atd.). Je proto nutné uchovat všechny možné důkazy prokazující škodu. Dokonce i videozáznam z bytu nebo parkoviště zjednoduší proces prokazování škody. Nebo pravidelné pořizování fotografií stavu vašeho majetku, pokud máte pojištění domácnosti.',
   },
   {
-    title: 'Take away Option',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'S jakou společností podepíšu smlouvu?',
+    text: 'Jednáme pouze jako zprostředkovatelé, takže smlouvu podepíšete přímo s pojišťovnou. Pomáháme s výběrem a přípravou údajů pro podpis smlouvy.',
   },
   {
-    title: 'Take away Option',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Od jakého data začne pojištění fungovat?',
+    text: 'Je důležité, abyste věděli, že datum podpisu smlouvy a datum zahájení pojištění jsou dvě různé věci. Vy sami určíte datum začátku a konce pojištění v podmínkách smlouvy. Nezapomeňte rovněž sledovat data vypršení platnosti současných pojištění a provádět platby včas tak, aby pojištění bylo platné.',
   },
   {
-    title: 'Take away Option',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Na koho se mám obrátit v případě pojistné události?',
+    text: 'V případě pojistné události kontaktujte pojišťovnu, se kterou jste podepsali smlouvu. Nejjednodušší způsob je zavolat na informační linku – kontaktní údaje jsou vždy uvedeny na webových stránkách každé pojišťovny.',
+  },
+
+]
+
+const carCards = [
+  {
+    title: 'Co je pojištění odpovědnosti z provozu vozidla?',
+    text: 'Pojištění odpovědnosti z provozu vozidla je pojištění, které musí ze zákona mít každý majitel vozidla. Kryje veškeré škody způsobené vozidlem. Může se jednat o vozidlo, dům, plot nebo zdraví třetí strany. Zákon č. 168/1999 Sb. „Zákon o pojištění odpovědnosti za škodu způsobenou provozem vozidla a o změně některých souvisejících zákonů (zákon o pojištění odpovědnosti z provozu vozidla)“. Tento typ povinného pojištění je stanoven zákonem pro vozidla registrovaná v registru silničních vozidel. Výjimky platí pro období, kdy je vozidlo registrováno v registru motorových vozidel jako vyřazené, vyvezené do jiné země nebo jehož platnost vypršela. Totéž platí při odcizení vozidla nebo pokud jsou registrační značky uloženy do depozitu.',
+  },
+  {
+    title: 'Co zahrnuje pojištění odpovědnosti z provozu vozidla?',
+    text: 'Toto pojištění zahrnuje: Poškození majetku způsobené vozidlem – poškození jiného vozidla, silniční zábrany, pilířů, plotů atd. Poškození zdraví - poškození v důsledku dopravní nehody, zranění nebo smrt cestujících Asistenční služby - informační podporu pojišťovny Ekologickou nehodu Pojištění však nepokrývá škodu způsobenou osobě odpovědné za dopravní nehodu. Nebudete kryti ohledně poškození nebo krádeže vašeho auta. V tomto případě je nutné mít úrazové pojištění.',
+  },
+  {
+    title: 'Jaké jsou limity pojištění odpovědnosti z provozu vozidla?',
+    text: 'Je to jednoduché, potřebujete dva dokumenty: občanský průkaz a velký technický průkaz pojišťovaného vozidla. Pomocí informací z těchto dokumentů vyplňte všechny potřebné údaje o sobě a vozidle (velikost motoru, výkon, celková hmotnost a datum první registrace). Pojištění odpovědnosti z provozu vozidla je možné zřídit i pokud nemáte některé údaje, jako například státní poznávací značku. To je možné po předložení platného příslibu. V takovém případě bude ke zřízení pojištění použit VIN kód a bude uveden v zelené kartě namísto SPZ. Po obdržení registrační značky a technického průkazu budete muset zadat údaje do registru a získáte novou zelenou kartu.',
+  },
+  {
+    title: 'Kdy obdržím zelenou kartu automobilu?',
+    text: 'Pokud si zřídíte pojištění odpovědnosti z provozu vozidla, obdržíte zelenou kartu e-mailem ihned po potvrzení cenové nabídky. Stačí ji vytisknout.',
+  },
+  {
+    title: 'Kdy končí pojištění odpovědnosti z provozu vozidla?',
+    text: 'Ukončení pojištění je stanoveno zákonem č. 168/1999 Sb. Uvádí, že doba platnosti končí, když pojistník nebo zákonný zástupce oznámí pojišťovně, že auto prodal nebo jinak změnil. Je nutné písemně oznámit pojišťovně, že vozidlo bylo převedeno (a pojištění odpovědnosti z provozu vozidla zrušeno). Doba platnosti vyprší také po zrušení registrace vozidla. K ukončení dojde v den zrušení registrace. V případě krádeže vozu je doba platnosti zrušena. V případě, že je obtížné určit datum krádeže, použije se den nahlášení krádeže policii. Majitel musí tuto skutečnost oznámit pojišťovně. Doba platnosti vyprší v případě opožděné platby, vypovězením nebo uplynutím lhůty uvedené ve smlouvě',
+  },
+  {
+    title: 'Když si koupím ojeté auto, kdy zaplatím pojištění odpovědnosti z provozu vozidla?',
+    text: 'Všechna pravidla ohledně povinného pojištění se vztahují také na ojetá vozidla, a proto nemáte právo řídit takové auto bez pojištění. Dokonce i pohyb na trhu s automobily je považován za porušení zákona. Podle zákona jste povinni pojistit auto v době získání vlastnictví vozidla (v okamžiku podpisu smlouvy o prodeji nebo darovací smlouvy). Původní vlastník vozidla zruší registraci před podpisem smlouvy, abyste mohli zřídit pojištění odpovědnosti z provozu vozidla při podpisu smlouvy. Při zápisu vozidla do registru musíte předložit zelenou kartu nebo jiný doklad o koupi pojištění.',
   },
 ]
 
 
+const accidentInsurance = [
+  {
+    title: 'Je k havarijnímu pojištění vyžadována fotografie?',
+    text: 'Ano, protože pojišťovně musíte prokázat stav svého vozu. Pokud pojišťovně nepředložíte fotodokumentaci, není naopak povinna vám v případě pojistné události poskytnout plnění. Pokyny k fotodokumentaci naleznete v přiloženém e-mailu.',
+  },
+  {
+    title: 'Je k havarijnímu pojištění vyžadována fotografie?',
+    text: 'Jedná se o částku, kterou hradíte z vlastní karty při úhradě škody. Výše nebo částka spoluúčasti závisí na pojišťovně. Obvykle činí 5 %.',
+  },
 
-
+]
 
 
 

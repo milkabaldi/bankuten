@@ -5,6 +5,7 @@ import Missions from './Missions.jsx'
 import Numbers from './Numbers.jsx'
 import Comments from './Comments.jsx'
 import Insurance from './Insurance.jsx'
+import Modal from './Modal.jsx'
 
 
 
@@ -15,6 +16,7 @@ export {
     Missions,
     Numbers,
     Comments,
-    Insurance
+    Insurance,
+    Modal
 
 }

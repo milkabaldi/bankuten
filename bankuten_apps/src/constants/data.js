@@ -175,6 +175,64 @@ const insuranceText = [
 
 
 
+
+const modal = [
+  {
+    title: 'Take away Option',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    title: 'Take away Option',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    title: 'Take away Option',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    title: 'Take away Option',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    title: 'Take away Option',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    title: 'Take away Option',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    title: 'Take away Option',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    title: 'Take away Option',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    title: 'Take away Option',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    title: 'Take away Option',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    title: 'Take away Option',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    title: 'Take away Option',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+]
+
+
+
+
+
+
+
 export default {
   reviews,
   partners,

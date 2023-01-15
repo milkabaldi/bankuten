@@ -277,4 +277,8 @@ export default {
   mission,
   numbers,
   insurance,
+  modal,
+  carCards,
+  accidentInsurance,
+  
 }

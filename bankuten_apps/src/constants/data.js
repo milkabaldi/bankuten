@@ -235,7 +235,7 @@ const carCards = [
   },
   {
     title: 'Co zahrnuje pojištění odpovědnosti z provozu vozidla?',
-    text: 'Toto pojištění zahrnuje: Poškození majetku způsobené vozidlem – poškození jiného vozidla, silniční zábrany, pilířů, plotů atd. Poškození zdraví - poškození v důsledku dopravní nehody, zranění nebo smrt cestujících Asistenční služby - informační podporu pojišťovny Ekologickou nehodu Pojištění však nepokrývá škodu způsobenou osobě odpovědné za dopravní nehodu. Nebudete kryti ohledně poškození nebo krádeže vašeho auta. V tomto případě je nutné mít úrazové pojištění.',
+    text: 'Toto pojištění zahrnuje: Poškození majetku způsobené vozidlem - poškození jiného vozidla, silniční zábrany, pilířů, plotů atd. Poškození zdraví - poškození v důsledku dopravní nehody, zranění nebo smrt cestujících Asistenční služby - informační podporu pojišťovny Ekologickou nehodu Pojištění však nepokrývá škodu způsobenou osobě odpovědné za dopravní nehodu. Nebudete kryti ohledně poškození nebo krádeže vašeho auta. V tomto případě je nutné mít úrazové pojištění.',
   },
   {
     title: 'Jaké jsou limity pojištění odpovědnosti z provozu vozidla?',
@@ -277,6 +277,7 @@ export default {
   mission,
   numbers,
   insurance,
+  insuranceText,
   modal,
   carCards,
   accidentInsurance,

@@ -6,7 +6,7 @@ import Numbers from './Numbers.jsx'
 import Comments from './Comments.jsx'
 import Insurance from './Insurance.jsx'
 import Modal from './Modal.jsx'
-
+import Footer from './Footer.jsx'
 
 
 export {
@@ -17,6 +17,7 @@ export {
     Numbers,
     Comments,
     Insurance,
-    Modal
+    Modal,
+    Footer,
 
 }

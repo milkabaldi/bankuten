@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, About, Partners, Missions, Numbers, Comments, Insurance, Modal } from './components'
+import { Navbar, About, Partners, Missions, Numbers, Comments, Insurance, Modal, Footer } from './components'
 import styles from './style.js'
 
 const App = () => {
@@ -20,6 +20,7 @@ const App = () => {
           <Comments />
           <Insurance />
           <Modal />
+          <Footer />
         </div>
       </section>
     </div>

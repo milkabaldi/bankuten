@@ -7,12 +7,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#00040f",
-        secondary: "#0B4141",
+        primary: 'rgba(3, 3, 1, 0.9) ;',
+        secondary: "#FDDD3D",
         dimWhite: "#fff",
-        dimBlue: "#0B4141",
+        dimWhiteBg: "#F7F8FA",
         dimPeach: '#FFCCBC',
         dimLightGrey: 'rgba(3, 3, 1, 0.5);',
+        dimBlue: 'rgba(220, 224, 233, 0.4);',
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

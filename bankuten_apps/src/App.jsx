@@ -4,14 +4,14 @@ import styles from './style.js'
 
 const App = () => {
   return (
-    <div className="bg-dimPeach w-full overflow-hidden">
+    <div className="bg-white w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+        <nav className={`${styles.boxWidth} flex justify-between items-center py-4`}>
           <Navbar />
-        </div>
+        </nav>
       </div>
 
-      <section className={`bg-dimWhite ${styles.flexStart}`}>
+      <section className={`bg-dimWhiteBg ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <About />
           <Partners />

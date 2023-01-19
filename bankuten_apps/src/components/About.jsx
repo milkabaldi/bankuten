@@ -13,7 +13,7 @@ function About() {
             správné pojištění.
           </p>
         </div>
-        <div className='bg-dimBlue p-10 rounded-xl'>
+        <div className='bg-dimBlue p-10 rounded-xln'>
           <div>
           <div className="flex items-center justify-between gap-1 mb-10">
             <div className='relative w-2/4 flex flex-col justify-between 	max-w-lg	items-start h-80 bg-dimWhite p-10 rounded-lg'>

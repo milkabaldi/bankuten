@@ -5,16 +5,16 @@ import data from '../constants/data'
 function Numbers() {
     return (
       <Fragment>
-        <div>
+        <div className='py-16'>
           <div>
-            <h2>Naše společnost v číslech:</h2>
+            <h2 className='text-primary  text-5xl mb-9 text-center'>Naše společnost v číslech:</h2>
           </div>
-          <div>
+          <div className='flex justify-between items-center flex-row gap-4'>
             {data.numbers.map((item) => (
-              <div >
-                <img className="" key={item.img} src={item.img} alt="Partner" />
-                <span key={item.title}>{item.title}</span>
-                <p key={item.text}>{item.text}</p>
+              <div className='p-10 rounded-lg bg-dimWhite w-1/3 flex flex-col justify-center items-center' >
+                <img className="mb-4" key={item.img} src={item.img} alt="Partner" />
+                <span className='text-primary  text-lg text-center mb-4' key={item.title}>{item.title}</span>
+                <p className='text-primary  text-lg text-center' key={item.text}>{item.text}</p>
               </div>
             ))}
           </div>

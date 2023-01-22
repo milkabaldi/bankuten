@@ -11,8 +11,9 @@ module.exports = {
         secondary: "#FDDD3D",
         dimWhite: "#fff",
         dimWhiteBg: "#F7F8FA",
-        dimPeach: '#FFCCBC',
+        dimLightBlue: '#4179EF',
         dimLightGrey: 'rgba(3, 3, 1, 0.5);',
+        dimGrey: "#E9EAEC",
         dimBlue: 'rgba(220, 224, 233, 0.4);',
       },
       fontFamily: {

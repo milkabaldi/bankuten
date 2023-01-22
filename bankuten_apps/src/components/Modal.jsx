@@ -8,11 +8,14 @@ function Modal() {
   return (
     <Fragment>
       <div>
+        <h2 className='text-primary  text-5xl mb-9 text-center'>Časté otázky - Často kladené dotazy ohledně pojištění</h2>
+      </div>
+      <div>
       {data.modal.map((item) => (
             <div>
-              <span key={item.title}>{item.title}</span>
+              <span className='text-primary' key={item.title}>{item.title}</span>
               <div>
-                <p key={item.text}>{item.text}</p>
+                <p className='text-primary' key={item.text}>{item.text}</p>
               </div>
             </div>
           ))}

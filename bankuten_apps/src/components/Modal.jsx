@@ -7,19 +7,25 @@ import data from '../constants/data'
 function Modal() {
   return (
     <Fragment>
-      <div>
-        <h2 className='text-primary  text-5xl mb-9 text-center'>Časté otázky - Často kladené dotazy ohledně pojištění</h2>
+      <div className='py-20'>
+      <div className='mb-20'>
+        <h2 className='text-primary  text-5xl text-center'>Časté otázky - Často kladené dotazy ohledně pojištění</h2>
       </div>
       <div>
       {data.modal.map((item) => (
             <div>
-              <span className='text-primary' key={item.title}>{item.title}</span>
-              <div>
-                <p className='text-primary' key={item.text}>{item.text}</p>
+              <div className='bg-dimGrey py-6 px-10 mb-10'>
+              <span className='text-primary font-medium	' key={item.title}>{item.title}</span>
+              </div>
+              
+              <div className='mb-10 hidden'>
+                <p className='text-primary ' key={item.text}>{item.text}</p>
               </div>
             </div>
           ))}
       </div>
+      </div>
+      
     </Fragment>
   )
 }

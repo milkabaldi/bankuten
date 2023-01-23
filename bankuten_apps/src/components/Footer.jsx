@@ -3,198 +3,198 @@ import { images } from '../constants'
 
 const Footer = () => {
   return (
-    <div>
-      <div>
+    <div className='bg-dimBlack py-14'>
+      <div className='mb-16'>
         <img src={images.Logo} alt="Logo" />
       </div>
-      <div>
+      <div className='grid grid-cols-7 justify-between items-start gap-4 mb-10'>
         <div>
-          <span>Pojištění</span>
+          <span className='text-dimWhite mb-6 text-2xl block'>Pojištění</span>
           <ul>
-            <li>
-              <a href="#1">Povinné ručení online</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Povinné ručení online</a>
             </li>
-            <li>
-              <a href="#1">Havarijní pojištění</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Havarijní pojištění</a>
             </li>
-            <li>
-              <a href="#1">Cestovní pojištění</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Cestovní pojištění</a>
             </li>
-            <li>
-              <a href="#1">Úrazové pojištění</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Úrazové pojištění</a>
             </li>
-            <li>
-              <a href="#1">Pojištění domácnosti</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Pojištění domácnosti</a>
             </li>
-            <li>
-              <a href="#1">Pojištění auta</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Pojištění auta</a>
             </li>
           </ul>
         </div>
 
         <div>
-          <span>Spoření</span>
+          <span className='text-dimWhite mb-6 text-2xl block'>Spoření</span>
           <ul>
-            <li>
-              <a href="#1">Penzijní spoření</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Penzijní spoření</a>
             </li>
-            <li>
-              <a href="#1">Navýšení penzijního spoření</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Navýšení penzijního spoření</a>
             </li>
-            <li>
-              <a href="#1">Spořicí účty</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Spořicí účty</a>
             </li>
           </ul>
         </div>
 
         <div>
-          <span>Úvěry</span>
+          <span className='text-dimWhite mb-6 text-2xl block'>Úvěry</span>
           <ul>
-            <li>
-              <a href="#1">Nová hypotéka</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Nová hypotéka</a>
             </li>
-            <li>
-              <a href="#1">Půjčky</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Půjčky</a>
             </li>
-            <li>
-              <a href="#1">Kreditní karty</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Kreditní karty</a>
             </li>
-            <li>
-              <a href="#1">Reklamační řád</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Reklamační řád</a>
             </li>
           </ul>
         </div>
 
         <div>
-          <span>Energie</span>
+          <span className='text-dimWhite mb-6 text-2xl block'>Energie</span>
           <ul>
-            <li>
-              <a href="#1">Elektřina</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Elektřina</a>
             </li>
-            <li>
-              <a href="#1">Plyn</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Plyn</a>
             </li>
           </ul>
         </div>
 
         <div>
-          <span>Pojišťovny</span>
+          <span className='text-dimWhite mb-6 text-2xl block'>Pojišťovny</span>
           <ul>
-            <li>
-              <a href="#1">Allianz</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Allianz</a>
             </li>
-            <li>
-              <a href="#1">AXA Assistance</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>AXA Assistance</a>
             </li>
-            <li>
-              <a href="#1">ČPP</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>ČPP</a>
             </li>
-            <li>
-              <a href="#1">ČSOB pojišťovna</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>ČSOB pojišťovna</a>
             </li>
-            <li>
-              <a href="#1">Direct pojišťovna</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Direct pojišťovna</a>
             </li>
-            <li>
-              <a href="#1">Generali</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Generali</a>
             </li>
-            <li>
-              <a href="#1">Kooperativa pojišťovna</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Kooperativa pojišťovna</a>
             </li>
-            <li>
-              <a href="#1">Slavia</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Slavia</a>
             </li>
-            <li>
-              <a href="#1">UNIQA</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>UNIQA</a>
             </li>
           </ul>
         </div>
 
         <div>
-          <span>Porovnej24.cz</span>
+          <span className='text-dimWhite mb-6 text-2xl block'>Porovnej24.cz</span>
           <ul>
-            <li>
-              <a href="#1">Úvodní strana</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Úvodní strana</a>
             </li>
-            <li>
-              <a href="#1">Kdo jsme</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Kdo jsme</a>
             </li>
-            <li>
-              <a href="#1">Volné pracovní pozice</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Volné pracovní pozice</a>
             </li>
-            <li>
-              <a href="#1">Affiliate Program</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Affiliate Program</a>
             </li>
-            <li>
-              <a href="#1">Hlídací pes</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Hlídací pes</a>
             </li>
-            <li>
-              <a href="#1">Autoinzerce</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Autoinzerce</a>
             </li>
-            <li>
-              <a href="#1">Doporuč a získej</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Doporuč a získej</a>
             </li>
-            <li>
-              <a href="#1">Kurzovní lístek</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Kurzovní lístek</a>
             </li>
-            <li>
-              <a href="#1">Články</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Články</a>
             </li>
-            <li>
-              <a href="#1">Slovník pojmů</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Slovník pojmů</a>
             </li>
-            <li>
-              <a href="#1">Důchodová kalkulačka</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Důchodová kalkulačka</a>
             </li>
-            <li>
-              <a href="#1">Výpočet čísté mzdy</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Výpočet čísté mzdy</a>
             </li>
-            <li>
-              <a href="#1">Obchodní podmínky</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Obchodní podmínky</a>
             </li>
-            <li>
-              <a href="#1">Ochrana osobních údajů</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Ochrana osobních údajů</a>
             </li>
-            <li>
-              <a href="#1">Závazek klientům</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Závazek klientům</a>
             </li>
-            <li>
-              <a href="#1">Reklamační řád</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Reklamační řád</a>
             </li>
-            <li>
-              <a href="#1">Kontakt</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Kontakt</a>
             </li>
-            <li>
-              <a href="#1">Poučení o právech na ochranu osobních údajů</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Poučení o právech na ochranu osobních údajů</a>
             </li>
           </ul>
         </div>
 
         <div>
-          <span>Bankuten</span>
+          <span className='text-dimWhite mb-6 text-2xl block'>Bankuten</span>
           <ul>
-            <li>
-              <a href="#1">Kdo jsme</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Kdo jsme</a>
             </li>
-            <li>
-              <a href="#1">Reklamační řád</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Reklamační řád</a>
             </li>
-            <li>
-              <a href="#1">Zásady ochrany osobních údajů</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Zásady ochrany osobních údajů</a>
             </li>
-            <li>
-              <a href="#1">Section naUživatelská dohodame</a>
+            <li className='mb-3'>
+              <a href="#1" className='text-dimBlue text-base hover:text-secondary transition-colors ease-in-out duration-300'>Section naUživatelská dohodame</a>
             </li>
           </ul>
         </div>
       </div>
       <div>
-        <div>
-          <a href="#23aasasda">Zásady ochrany osobních údajů</a>
-          <a href="#43aaadasdaa">Uživatelská dohoda</a>
+        <div className='flex justify-center items-center gap-4 mb-5'>
+          <a className='text-dimGrey underline hover:text-secondary transition-colors ease-in-out duration-300' href="#23aasasda">Zásady ochrany osobních údajů</a>
+          <a className='text-dimGrey underline hover:text-secondary transition-colors ease-in-out duration-300' href="#43aaadasdaa">Uživatelská dohoda</a>
         </div>
         <div>
-          <p>
+          <p className='text-dimBlue text-xs text-center'>
             ©2023, OOO “Bakuten.com”. Při použití hypertextového odkazu na
             materiály sravni.ru povinné. INN 775201496, OHRN 1084793640289.
             106987, Česko, Boulevard nadšenců, dům 2, 26 patro.

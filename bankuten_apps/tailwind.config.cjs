@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         primary: 'rgba(3, 3, 1, 0.9) ;',
         secondary: "#FDDD3D",
+        dimBlack: "#1C1C1A",
         dimWhite: "#fff",
         dimWhiteBg: "#F7F8FA",
         dimLightBlue: '#4179EF',

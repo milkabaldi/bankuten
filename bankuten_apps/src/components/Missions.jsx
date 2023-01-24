@@ -10,7 +10,7 @@ function Missions() {
             <h2 className='text-primary  text-5xl mb-9 text-center'>Naším posláním je ušetřit vám čas a peníze!</h2>
             <p className='text-dimLightBlue text-4xl text-center'>Proč zrovna my?</p>
           </div>
-          <div className='flex justify-between items-center flex-row gap-4   '>
+          <div className='flex justify-between  flex-row gap-4   '>
             {data.mission.map((item) => (
               <div className='p-10 rounded-lg bg-dimWhite w-1/3 flex flex-col justify-center items-center shadow-lg'>
                 <img className='mb-4'  key={item.img} src={item.img} alt="Partner" />

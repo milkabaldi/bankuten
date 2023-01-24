@@ -20,7 +20,12 @@ const App = () => {
           <Comments />
           <Insurance />
           <Modal />
-          <Footer />
+          
+        </div>
+      </section>
+      <section className={`bg-dimBlack ${styles.flexStart}`}>
+        <div className={`py-14 max-lg:px-14 ${styles.boxWidth}`}>
+        <Footer />
         </div>
       </section>
     </div>

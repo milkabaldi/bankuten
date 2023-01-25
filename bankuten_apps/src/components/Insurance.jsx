@@ -9,7 +9,7 @@ function Insurance() {
           <div className='mb-16'>
             <h2 className='text-primary  text-5xl mb-9 text-center'>Naše společnost v číslech:</h2>
           </div>
-          <div className='grid grid-cols-3 justify-between items-start gap-4'>
+          <div className='grid grid-cols-3 justify-between items-start gap-4 max-sm:grid-cols-1'>
             {data.insurance.map((item) => (
               <div className='flex flex-col items-center bg-white p-10 relative'>
                 <span className='text-dimWhite text-lg bg-dimLightBlue absolute top-0 p-2 rounded-full' key={item.number}>{item.number}</span>

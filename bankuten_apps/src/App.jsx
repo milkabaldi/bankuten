@@ -12,19 +12,34 @@ const App = () => {
       </div>
 
       <section className={`bg-dimWhiteBg ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className={`py-14 max-xl:px-14 ${styles.boxWidth}`}>
           <About />
-          <Partners />
+        </div>
+      </section>
+      <section className={`bg-dimGrey ${styles.flexStart}`}>
+        <div className={`py-14 max-xl:px-14 ${styles.boxWidth}`}>
+        <Partners />
+        </div>
+      </section>
+      <section className={`bg-dimWhiteBg ${styles.flexStart}`}>
+        <div className={`py-14 max-xl:px-14 ${styles.boxWidth}`}>
           <Missions />
           <Numbers />
-          <Comments />
+        </div>
+      </section>
+      <section className={`bg-dimGrey ${styles.flexStart}`}>
+        <div className={`py-14 max-xl:px-14 ${styles.boxWidth}`}>
+        <Comments />
+        </div>
+      </section>
+      <section className={`bg-dimWhiteBg ${styles.flexStart}`}>
+        <div className={`py-14 max-xl:px-14 ${styles.boxWidth}`}>
           <Insurance />
           <Modal />
-          
         </div>
       </section>
       <section className={`bg-dimBlack ${styles.flexStart}`}>
-        <div className={`py-14 max-lg:px-14 ${styles.boxWidth}`}>
+        <div className={`py-14 max-xl:px-14 ${styles.boxWidth}`}>
         <Footer />
         </div>
       </section>

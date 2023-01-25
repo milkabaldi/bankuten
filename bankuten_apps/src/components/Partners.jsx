@@ -9,9 +9,9 @@ function Partners() {
           <div>
             <h2 className='text-primary  text-5xl mb-9 text-center'>Naši partneři</h2>
           </div>
-          <div className='grid grid-cols-6 gap-4 bg-dimBlue p-10 rounded-xl justify-center items-center '>
+          <div className='grid grid-cols-6 gap-4 bg-dimBlue p-10 rounded-xl justify-center items-center max-md:grid-cols-3 '>
             {data.partners.map((item) => (
-              <div >
+              <div className='m-auto' >
                 <img className="" key={item.logo} src={item.logo} alt="Partner" />
               </div>
             ))}

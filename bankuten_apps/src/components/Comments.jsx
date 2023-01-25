@@ -5,7 +5,7 @@ import data from '../constants/data'
 function Comments() {
     return (
       <Fragment>
-        <div className='bg-dimGrey py-32'>
+        <div className=' py-32'>
           <div className='mb-40'>
             <h2 className='text-primary  text-5xl mb-9 text-center '>Komentáře</h2>
           </div>

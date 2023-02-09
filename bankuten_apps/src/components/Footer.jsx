@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='mb-16'>
         <img src={images.Logo} alt="Logo" />
       </div>
-      <div className='grid grid-cols-7 justify-between items-start gap-4 mb-10 max-lg:grid-cols-4'>
+      <div className='grid grid-cols-7 justify-between items-start gap-4 mb-10 max-lg:grid-cols-4 max-ss:grid-cols-2'>
         <div>
           <span className='text-dimWhite mb-6 text-2xl block'>Pojištění</span>
           <ul>

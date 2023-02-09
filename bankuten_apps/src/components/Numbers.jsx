@@ -11,7 +11,7 @@ function Numbers() {
           </div>
           <div className='flex justify-between flex-row gap-4 max-md:flex-wrap max-md:justify-center'>
             {data.numbers.map((item) => (
-              <div className='p-10 rounded-lg bg-dimWhite w-1/3 flex flex-col justify-center items-center shadow-lg' >
+              <div className='p-10 rounded-lg bg-dimWhite w-1/3 flex flex-col justify-center items-center shadow-lg max-ss:w-full' >
                 <img className="mb-4" key={item.img} src={item.img} alt="Partner" />
                 <span className='text-primary  text-lg text-center mb-4' key={item.title}>{item.title}</span>
                 <p className='text-primary  text-lg text-center' key={item.text}>{item.text}</p>

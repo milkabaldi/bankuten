@@ -7,8 +7,7 @@ const Navbar = () => {
           <div>
             <img src={images.Logo} alt="Logo" />
           </div>
-            <ul className='flex justify-between gap-2
-            '>
+            <ul className='flex justify-between gap-2 max-ss:hidden'>
                 <li className='text-dimLightGrey'><a className='text-dimLightGrey hover:text-secondary transition-colors ease-in-out duration-300 active:border-b-2 border-secondary' href="#List">DOMOV</a></li>
                 <li className='text-dimLightGrey'><a className='text-dimLightGrey hover:text-secondary transition-colors ease-in-out duration-300 active:border-b-2 border-secondary' href="#List">POJIŠTĚNÍ</a></li>
                 <li className='text-dimLightGrey'><a className='text-dimLightGrey hover:text-secondary transition-colors ease-in-out duration-300 active:border-b-2 border-secondary' href="#List">HYPOTÉKY A PŮJČKY</a></li>

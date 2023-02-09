@@ -15,9 +15,11 @@ function Modal() {
       {data.modal.map((item) => (
             <div>
               <div className='bg-dimGrey py-6 px-10 mb-10 rounded'>
-                <span className='text-primary font-medium	' key={item.title}>{item.title}</span>
+                <button className='text-primary font-medium	' key={item.title}>{item.title}</button>
+                <span>
+                  <img src="" alt="" />
+                </span>
               </div>
-              
               <div className='mb-10 hidden'>
                 <p className='text-primary ' key={item.text}>{item.text}</p>
               </div>

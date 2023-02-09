@@ -27,7 +27,7 @@ function Insurance() {
         {data.insuranceText.map((item) => (
               <div className='mb-20'>
                 <h3 className='text-primary  text-2xl  text-center mb-10 font-semibold	' key={item.title}>{item.title}</h3>
-                <div className='grid grid-cols-2 gap-5'>
+                <div className='grid grid-cols-2 gap-5 max-ss:grid-cols-1'>
                   <p className='text-primary text-lg' key={item.text1}>{item.text1}</p>
                   <p className='text-primary text-lg' key={item.text2}>{item.text2}</p>
                 </div>

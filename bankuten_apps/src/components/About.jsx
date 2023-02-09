@@ -14,23 +14,23 @@ function About() {
           </p>
         </div>
         <div className='bg-dimBlue p-10 rounded-xln'>
-          <div>
-          <div className="flex items-center justify-between gap-4 mb-10">
-            <div className='relative w-2/4 flex flex-col justify-between 	max-w-lg	items-start h-80 bg-dimWhite p-10 rounded-lg'>
+          <div className=''>
+          <div className="flex items-center justify-between gap-4 mb-10 max-ss:flex-col ">
+            <div className='relative w-2/4 flex flex-col justify-between 	max-w-lg	items-start h-80 bg-dimWhite p-10 rounded-lg max-ss:w-full'>
               <span className='text-primary text-xl'>Pojištění vozidla</span>
-              <button className='text-primary bg-secondary text-base py-3.5 px-2.5 rounded-lg'>Získat pojistku</button>
-              <img src={images.First} className='absolute bottom-0 right-0 ' alt="Car" />
+              <button className='text-primary bg-secondary text-base py-3.5 px-2.5 rounded-lg z-20'>Získat pojistku</button>
+              <img src={images.First} className='absolute bottom-0 right-0  z-10' alt="Car" />
             </div>
-            <div className='relative w-2/4 flex flex-col justify-between 	max-w-lg	items-start h-80 bg-dimWhite p-10 rounded-lg'>
+            <div className='relative w-2/4 flex flex-col justify-between 	max-w-lg	items-start h-80 bg-dimWhite p-10 rounded-lg max-ss:w-full'>
               <span className='text-primary text-xl'>Úrazové pojištění</span>
-              <button className='text-primary bg-secondary text-base py-3.5 px-2.5 rounded-lg'>Získat pojistku</button>
-              <img src={images.Second} className='absolute bottom-0 right-0 ' alt="Car" />
+              <button className='text-primary bg-secondary text-base py-3.5 px-2.5 rounded-lg z-20'>Získat pojistku</button>
+              <img src={images.Second} className='absolute bottom-0 right-0 z-10 ' alt="Car" />
             </div>
           </div>
           </div>
         <div className='flex justify-between  flex-row gap-4 max-md:flex-wrap max-md:justify-center   '>
           {data.propose.map((item) => (
-            <div className="p-10 rounded-lg bg-dimWhite w-1/3 flex flex-col justify-center items-center">
+            <div className="p-10 rounded-lg bg-dimWhite w-1/3 flex flex-col justify-center items-center max-ss:w-full">
               <div className="mb-4 flex items-center justify-center"> 
                 <img  key={item.ima} src={item.ima} alt="Image" />
               </div>

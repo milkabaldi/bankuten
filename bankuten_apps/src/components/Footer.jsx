@@ -190,8 +190,8 @@ const Footer = () => {
       </div>
       <div>
         <div className='flex justify-center items-center gap-4 mb-5'>
-          <a className='text-dimGrey underline hover:text-secondary transition-colors ease-in-out duration-300' href="#23aasasda">Zásady ochrany osobních údajů</a>
-          <a className='text-dimGrey underline hover:text-secondary transition-colors ease-in-out duration-300' href="#43aaadasdaa">Uživatelská dohoda</a>
+          <a className='text-dimGrey underline hover:text-secondary transition-colors ease-in-out duration-300 text-center' href="#23aasasda">Zásady ochrany osobních údajů</a>
+          <a className='text-dimGrey underline hover:text-secondary transition-colors ease-in-out duration-300 text-center' href="#43aaadasdaa">Uživatelská dohoda</a>
         </div>
         <div>
           <p className='text-dimBlue text-xs text-center'>

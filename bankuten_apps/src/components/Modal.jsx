@@ -7,7 +7,7 @@ import data from '../constants/data'
 function Modal() {
   return (
     <Fragment>
-      <div className='py-20'>
+      <div className='py-20 max-ss:py-0'>
       <div className='mb-20'>
         <h2 className='text-primary  text-5xl text-center'>Časté otázky - Často kladené dotazy ohledně pojištění</h2>
       </div>

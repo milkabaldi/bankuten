@@ -12,7 +12,7 @@ const App = () => {
       </div>
 
       <section className={`bg-dimWhiteBg ${styles.flexStart}`}>
-        <div className={`py-14 max-xl:px-14 max-sm:px-7 ${styles.boxWidth}`}>
+        <div className={`py-14 max-xl:px-14 max-sm:px-7 max-ss:py-7 ${styles.boxWidth}`}>
           <About />
         </div>
       </section>
@@ -22,24 +22,24 @@ const App = () => {
         </div>
       </section>
       <section className={`bg-dimWhiteBg ${styles.flexStart}`}>
-        <div className={`py-14 max-xl:px-14 max-sm:px-7 ${styles.boxWidth}`}>
+        <div className={`py-14 max-xl:px-14 max-sm:px-7 max-ss:py-7 ${styles.boxWidth}`}>
           <Missions />
           <Numbers />
         </div>
       </section>
       <section className={`bg-dimGrey ${styles.flexStart}`}>
-        <div className={`py-14 max-xl:px-14 max-sm:px-7 ${styles.boxWidth}`}>
+        <div className={`py-14 max-xl:px-14 max-sm:px-7 max-ss:py-7 ${styles.boxWidth}`}>
         <Comments />
         </div>
       </section>
       <section className={`bg-dimWhiteBg ${styles.flexStart}`}>
-        <div className={`py-14 max-xl:px-14 max-sm:px-7 ${styles.boxWidth}`}>
+        <div className={`py-14 max-xl:px-14 max-sm:px-7 max-ss:py-7 ${styles.boxWidth}`}>
           <Insurance />
           <Modal />
         </div>
       </section>
       <section className={`bg-dimBlack ${styles.flexStart}`}>
-        <div className={`py-14 max-xl:px-14 max-sm:px-7 ${styles.boxWidth}`}>
+        <div className={`py-14 max-xl:px-14 max-sm:px-7 max-ss:py-7 ${styles.boxWidth}`}>
         <Footer />
         </div>
       </section>

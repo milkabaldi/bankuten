@@ -1,10 +1,11 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState} from 'react'
 import { images } from '../constants'
 import data from '../constants/data'
 
 
 
 function Modal() {
+  const [toggle, setToggle] = useState(false)
   return (
     <Fragment>
       <div className='py-20 max-ss:py-0'>
@@ -15,14 +16,18 @@ function Modal() {
       {data.modal.map((item) => (
             <div>
               <div className='bg-dimGrey py-6 px-10 mb-10 rounded'>
-                <button className='text-primary font-medium	' key={item.title}>{item.title}</button>
+                <button className='text-primary font-medium' onClick={() => setToggle(!toggle)} key={item.id}>{item.title}</button>
                 <span>
                   <img src="" alt="" />
                 </span>
               </div>
-              <div className='mb-10 hidden'>
-                <p className='text-primary ' key={item.text}>{item.text}</p>
-              </div>
+              {
+                toggle && (
+                  <div className='mb-10'>
+                  <p className='text-primary ' key={item.id}>{item.text}</p>
+                </div>
+                )
+              }
             </div>
           ))}
       </div>

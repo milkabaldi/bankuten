@@ -177,51 +177,63 @@ const insuranceText = [
 
 
 const modal = [
-  {
+  { 
+    id:'1',
     title: 'Jste pojišťovna?',
     text: 'Ne. Jsme srovnávač a spolupracujeme s řadou pojišťoven. Známe a analyzujeme obrovské množství pojišťovacích služeb a porovnáváme všechny cenové nabídky. Proto jsme schopni vybrat podle vašich parametrů vyhledávání tu nejlepší nabídku pro vás. Zjednodušíme složitost výběru. Jedna pojišťovna se totiž může zaměřovat na mladší řidiče, zatímco jiná se zaměřuje na zkušenější řidiče. Totéž platí u ostatních druhů pojištění',
   },
   {
+    id:'2',
     title: 'Máte pro pojišťovny zvýhodněné podmínky?',
     text: 'Bez zvláštních výhod. To je naše hlavní pravidlo! Spolupracujeme se všemi pojišťovnami za stejných podmínek. Proto si zákazníci mohou být jisti poctivostí cenových nabídek.',
   },
   {
+    id:'3',
     title: 'Proč musím uvést své kontaktní údaje a další osobní údaje?',
     text: 'ento princip funguje ve všech srovnávačích. Je to stejné, jako když kontaktujete pojišťovnu přímo. Pokud se obrátíte přímo na svou pojišťovnu, budou požadovat stejné informace. Všechny osobní údaje jsou chráněny a garantujeme jejich naprostou bezpečnost. Je to pro nás velmi důležité a ceníme si naší pověsti.',
   },
   {
+    id:'4',
     title: 'Proč máte tak příznivé ceny?',
     text: 'Uzavíráme stovky smluv týdně. Pomáháme vám i poskytovatelům pojištění a obě strany šetří svůj čas. Poskytovatelé obrovskou měrou ušetří na administrativních nákladech, a proto poskytují přístup k lepším nabídkám. Proto u nás najdete neveřejné nabídky se speciálními slevami. Je to opět výhodné pro obě strany. Vše je jednoduché a přehledné: U nás najdete nejlepší nabídku, poskytovatel uzavře naším prostřednictvím novou smlouvu a my obdržíme provizi.',
   },
   {
+    id:'5',
     title: 'Jaký druh pojištění potřebuji?',
     text: 'Vše závisí na vašich potřebách a životní situaci. Pokud například někam jedete, budete potřebovat cestovní pojištění. Pokud vlastníte auto, budete potřebovat povinné pojištění vozidla.',
   },
   {
+    id:'6',
     title: 'Jsou všechna pojištění k dispozici online?',
     text: 'Téměř všechna pojištění jsou k dispozici online. Mezi výjimky patří některé typy životního a úrazového pojištění. K jejich sjednání se musíte obrátit přímo na zástupce pojišťovny, na kterého vás odkážeme prostřednictvím našeho srovnávače.',
   },
   {
+    id:'7',
     title: 'Jak si vybrat nejlepší pojištění?',
     text: 'Doporučujeme vám věnovat pozornost stanoveným limitům jednotlivých typů pojištění. Pojištění kryje veškeré škody, ale pouze v rámci stanovených limitů. Čtěte pozorně, i spodní limit se vám zdát vysoký, a nenechte se zmást vysokými čísly. Různé životní situace, jako jsou nehody, mohou bohužel vést k obrovským škodám, které nejsou kryty běžným pojištěním s nízkými limity. V tomto případě byste museli platit horentní sumy z vlastní kapsy.',
   },
   {
+    id:'8',
     title: 'Co je spoluúčast?',
     text: 'Jedná se o určitý druh ochrany pojišťoven před různými podvody. Spoluúčast znamená část škody, kterou pojištěný musí nahradit v případě pojistné události. Obvykle se uvádí jako procento nebo pevně stanovená částka. Tento faktor také ovlivňuje náklady na pojištění: Čím vyšší je procento příplatku, tím levnější pojištění.',
   },
   {
+    id:'9',
     title: 'Jak může pojištěný prokázat škodu?',
     text: 'K tomuto účelu existuje seznam požadovaných dokumentů (účtenky, fotografie atd.). Je proto nutné uchovat všechny možné důkazy prokazující škodu. Dokonce i videozáznam z bytu nebo parkoviště zjednoduší proces prokazování škody. Nebo pravidelné pořizování fotografií stavu vašeho majetku, pokud máte pojištění domácnosti.',
   },
   {
+    id:'10',
     title: 'S jakou společností podepíšu smlouvu?',
     text: 'Jednáme pouze jako zprostředkovatelé, takže smlouvu podepíšete přímo s pojišťovnou. Pomáháme s výběrem a přípravou údajů pro podpis smlouvy.',
   },
   {
+    id:'11',
     title: 'Od jakého data začne pojištění fungovat?',
     text: 'Je důležité, abyste věděli, že datum podpisu smlouvy a datum zahájení pojištění jsou dvě různé věci. Vy sami určíte datum začátku a konce pojištění v podmínkách smlouvy. Nezapomeňte rovněž sledovat data vypršení platnosti současných pojištění a provádět platby včas tak, aby pojištění bylo platné.',
   },
   {
+    id:'12',
     title: 'Na koho se mám obrátit v případě pojistné události?',
     text: 'V případě pojistné události kontaktujte pojišťovnu, se kterou jste podepsali smlouvu. Nejjednodušší způsob je zavolat na informační linku – kontaktní údaje jsou vždy uvedeny na webových stránkách každé pojišťovny.',
   },
